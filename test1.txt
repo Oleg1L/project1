@@ -1,1 +1,25 @@
 Лялин Олег
+
+
+#include "stdafx.h"
+#include <iostream>
+#include <random>
+#include <vector>
+#include <map>
+#include <set>
+using namespace std;
+
+int _tmain(int argc, _TCHAR* argv[])
+{
+	setlocale(LC_ALL, "RUS");
+
+	double mas1[10];
+	for (int i = 0; i < 10; i++){
+		mas1[i] = pow(2, i);
+	}
+	for (int i = 0; i < 10; i++) {
+		cout << mas1[i] << " ";
+	}
+system("pause");
+	return 0;
+}
